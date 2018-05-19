@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="css/loginstyle.css" rel="stylesheet" />
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="js/login.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>🆆🅾🆁🅻🅳 🅽🅴🆆🆂</h1>
+		</header>
+		<div id = "log" style = "background-image: url(img/blur.png)">
+			<div id = "inner">
+			</div>
+		</div>
+		<div id = "loginfields">
+				<button type="button" class="btn" id="exit">
+				<span class="glyphicon glyphicon-remove"></span>
+				</button>
+			<form name = "loginform">
+				<input type="text" class="form-control req" id="usernamel" placeholder="Username (email)" onfocus = "focusfield(this)" onblur = "unfocus(this)">
+				<br></br>
+				<input type="password" class="form-control req" id="passwordl" onkeypress="password(event)" placeholder="Password" onfocus = "focusfield(this)" onblur = "unfocus(this)">
+				<br></br>
+				<button type="button" id ="submit" class="btn" onclick="return false;">Submit</button>
+			</form>
+		</div>
+		<div id = "signupfields">
+				<button type="button" class="btn" id="exit2">
+				<span class="glyphicon glyphicon-remove"></span>
+				</button>
+			<form name = "signupform">
+				<input type="text" class="form-control" id="usernames" placeholder="Username (email)" onfocus = "focusfield(this)" onblur = "unfocus(this)">
+				<span class="req">  </span>
+				<br></br>
+				<input type="password" class="form-control" id="passwords" onkeypress="password(event)" placeholder="Password" onfocus = "focusfield(this)" onblur = "unfocus(this)">
+				<span class="req">  </span>
+				<br></br>
+				<input type="password" class="form-control" id="passwordr" onkeypress="password2(event)" placeholder="Retype Password" onfocus = "focusfield(this)" onblur = "unfocus(this)">
+				<span class="req">  </span>
+				<br></br>
+				<button type="button" id ="submit2" class="btn" onclick="return false;">Submit</button>
+				<br/>
+				<div id="results">
+				&nbsp;
+				</div>
+			</form>
+		</div>
+		<div id = "choose">
+			<button type="button" id ="loginb" class="btn">Login</button>
+			<button type="button" id ="signupb" class="btn">Sign Up</button>
+		</div>
+	<svg xmlns= "http://www.w3.org/2000/svg"  version="1.1">
+	<filter id = "blur">
+		<feGaussianBlur stdDeviation ="5"/>
+	</filter>
+	</body>
+
+</html>

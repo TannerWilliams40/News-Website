@@ -1,0 +1,160 @@
+.btn {
+	font-size:14px;
+	border-radius: 8px;
+	background-image: linear-gradient(lightgrey,darkgrey);
+	font-family: courier;
+	box-shadow: 2px 3px 4px 0px;
+}
+input{
+	font-family: courier;
+}
+body
+{
+	background-image: url("http://interfacelift.com/wallpaper/previews/04129_zuiderheide_672x420.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header h1
+{
+	margin-left: 30%;
+	font-size: 60px;
+    width: 900px;
+    padding-top: 60px;
+    position: absolute;
+    font-family: courier;
+    color: #232323;
+}
+#choose
+{
+	margin-left: 41%;
+	margin-top: 43%;
+	position: absolute;
+	width:250px;
+}
+#log
+{
+	width: 422px;
+	height: 410px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 12.5%;
+	margin-left: 34.8%;
+	position: absolute;
+ 	filter: blur(5px);
+}
+#inner
+{
+	width: 420px;
+	height: 410px;
+	background-color: white;
+	opacity: .15;
+	position: absolute;
+}
+#exit
+{
+	position: absolute;
+	margin-left: 302px;
+	margin-top: -104px;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 1.9px;
+	border-radius: 30px;
+	background-color: transparent;
+}
+#exit2
+{
+	position: absolute;
+	margin-left: 301px;
+	margin-top: -44px;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 1.9px;
+	border-radius: 30px;
+	background-color: transparent;
+}
+#loginfields
+{
+	position:absolute;
+	margin-top: 20%;
+	margin-left: 41%;
+}
+#signupfields
+{
+	position:absolute;
+	margin-top: 16%;
+	margin-left: 41%;
+}
+#usernamel {
+	width:130%;
+	height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwordl {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#usernames {
+	width:130%;
+	height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwords {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+#passwordr {
+	width: 130%;
+	height:30px;
+	margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+    border-width: 2px;
+    border-color: transparent;
+}
+.req:after {
+    content: "*";
+    color: red;
+    position: absolute;
+    margin-left: 236px;
+    margin-top: -29px;
+  	font-size: 20px;
+}
+#loginb{
+	width: 90px;
+	height: 40px;
+	margin-right: 40px;
+}
+#signupb{
+	height: 40px;
+	width: 90px;
+}
+#submit{
+	width: 90px;
+	height: 40px;
+	margin-left:79px;
+	margin-top:25px;
+}
+#submit2{
+	width: 90px;
+	height: 40px;
+	margin-left:79px;
+	margin-top:10px;
+}

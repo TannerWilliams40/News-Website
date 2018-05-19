@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="css/mainstyle.css" rel="stylesheet" />
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="js/main.js" defer></script>
+	</head>
+		<div id = "popup">
+			Are you sure you want to sign out?
+			<br>
+			<button type="button" class="btn" id="yes">Yes</button>
+			<button type="button" class="btn" id="no">No</button>
+		</div>
+		<body>
+			<div id = "confirm"></div>
+			<div id = "inner">
+				<button type="button" class="btn" id="exit">
+				<span class="glyphicon glyphicon-log-out" id = "symbol"></span>
+				</button>
+				<div id="preface">
+				Logged in as:
+				</div>
+				<div id="loggedinas">
+				&nbsp;
+				</div>
+				<header>
+					<h1>🆆🅾🆁🅻🅳 🅽🅴🆆🆂</h1>
+				</header>
+
+				<div id="col2">
+					<div class = "t" id = "t1">&nbsp;</div>
+						<div class ="s" id = "s1">&nbsp;</div>
+						<br>
+						<div class ="d" id = "d1">&nbsp;</div>
+						<div class ="a" id = "a1">&nbsp;</div>
+					<div class = "t" id = "t2">&nbsp;</div>
+						<div class ="s" id = "s2">&nbsp;</div>
+						<br>
+						<div class ="d" id = "d2">&nbsp;</div>
+						<div class ="a" id = "a2">&nbsp;</div>
+					<div class = "t" id = "t3">&nbsp;</div>
+						<div class ="s" id = "s3">&nbsp;</div>
+						<br>
+						<div class ="d" id = "d3">&nbsp;</div>
+						<div class ="a" id = "a3">&nbsp;</div>
+					<div id="addedstories">
+
+					</div>
+			<div id="comment">Add your story!</div>
+			<div id="add">
+			<input type="text" class="form-control" id="addtitle" placeholder="Title" onfocus = "focusfield(this)" onblur = "unfocus(this)"/>
+			<textarea class="form-control" rows="6" cols="60" id="addwords" placeholder="Your story" onfocus = "focusfield(this)" onblur = "unfocus(this)"></textarea>
+			<button type="button" class="btn" id="sub" onclick="validate()">Submit</button>
+			</div>
+				</div>
+			</div>
+		</body>
+</html>
